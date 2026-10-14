@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Pagina</title>
+</head>
+<body>
+
+    
+    <div id="primeraseccion">
+        <h4 class="seccion1">Pepito Perez</h4>
+        <div class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="#" class="active">¿Quien soy?</a>
+            <a href="#">Proyectos</a>
+        </div>
+    </div>
+
+    
+    <div id="segundaseccion">
+        <div class="img">
+            <img src="img/img 1.png" alt="Ilustración Pepito Perez">
+        </div>
+        <div class="texto">
+            <h1 class="texto1">¿Quien soy?</h1>
+            <p class="texto2">
+                Me llamo Óscar Beltrán, y me considero una persona en constante evolución, impulsada por la curiosidad y las ganas de aprender cada día. A lo largo de mi vida, he buscado construir mi camino combinando la disciplina con mis pasiones individuales, lo que me permite abordar los retos con una mentalidad abierta y enfocada en soluciones.
+            </p>
+            <a href="#" class="texto3">Leer más</a>
+        </div>
+    </div>
+
+    
+    <div id="Terceraseccion">
+        <div class="img34">
+            <img src="img 3 seccion/Captura de pantalla 2026-09-17 085246.png" alt="Foto perfil">
+        </div>
+        <div class="h12">
+            <p class="quote-text">
+                Aparcar una nave espacial en paralelo: Tu gran meta técnica es dominar la hidrodinámica cuántica para estacionar un crucero intergaláctico en el espacio más reducido de un astillero de Saturno, sin rozar los anillos y a la primera. Aprender el idioma de los gatos: Estás convencido de que los michis dominan los secretos de la alta diplomacia cósmica. Tu objetivo es entender por qué te miran fijo a las tres de la mañana y negociar un tratado de paz definitivo sobre el uso de los sillones.
+            </p>
+            <p class="p">- Pepito Perez</p>
+        </div>
+    </div>
+
+   
+    <div id="cuartaseccion">
+        <div class="c12">
+            <h1 class="c13">Mis proyectos</h1>
+        </div>
+
+        <div class="proyectos-grid">
+            <!-- Proyecto 1 -->
+            <div class="card">
+                <img src="img 4 seccion/Captura de pantalla 2026-09-30 094451.png" class="card-img" alt="Proyecto 1">
+                <div class="card-content">
+                    <h3 class="card-title">Proyecto 1</h3>
+                    <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate sit nisi beatae amet blanditiis placeat repellat minima assumenda, animi impedit totam, voluptatum aut nihil alias laboriosam expedita, dolor nam voluptatem.</p>
+                    <a href="#" class="btn-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="card">
+                <img src="img 4 seccion/Captura de pantalla 2026-09-30 094458.png" class="card-img" alt="Proyecto 2">
+                <div class="card-content">
+                    <h3 class="card-title">Proyecto 2</h3>
+                    <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate sit nisi beatae amet blanditiis placeat repellat minima assumenda, animi impedit totam, voluptatum aut nihil alias laboriosam expedita, dolor nam voluptatem.</p>
+                    <a href="#" class="btn-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="card">
+                <img src="img 4 seccion/Captura de pantalla 2026-09-30 094507.png" class="card-img" alt="Proyecto 3">
+                <div class="card-content">
+                    <h3 class="card-title">Proyecto 3</h3>
+                    <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate sit nisi beatae amet blanditiis placeat repellat minima assumenda, animi impedit totam, voluptatum aut nihil alias laboriosam expedita, dolor nam voluptatem.</p>
+                    <a href="#" class="btn-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+
+            <!-- Proyecto 4 -->
+            <div class="card">
+                <img src="img 4 seccion/Captura de pantalla 2026-09-30 094516.png" class="card-img" alt="Proyecto 4">
+                <div class="card-content">
+                    <h3 class="card-title">Proyecto 4</h3>
+                    <p class="card-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate sit nisi beatae amet blanditiis placeat repellat minima assumenda, animi impedit totam, voluptatum aut nihil alias laboriosam expedita, dolor nam voluptatem.</p>
+                    <a href="#" class="btn-proyecto">Ver proyecto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="quintaseccion">
+        <p>Copyright © 2018. Todos los derechos reservados.</p>
+    </div>
+
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+            position: relative;
+        }
+
+       
+        #primeraseccion {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2b2b2b;
+            padding: 15px 80px;
+            color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .seccion1 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: white;
+        }
+
+        
+        #segundaseccion {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            padding: 60px 40px;
+            background-color: #ffffff;
+        }
+
+        .img {
+            position: relative;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .img img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .texto {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 450px;
+        }
+
+        .texto1 {
+            color: #e74c3c;
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .texto2 {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .texto3 {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .texto3:hover {
+            background-color: #c0392b;
+        }
+
+       
+        #Terceraseccion {
+            position: relative;
+            background-color: #FD411E;
+            color: white;
+            padding: 60px 20px 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .img34 {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 25px;
+            border: 4px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .img34 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .h12 {
+            position: relative;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .quote-text {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .p {
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        
+        #cuartaseccion {
+            position: relative;
+            background-color: #ffffff;
+            padding: 50px 20px;
+        }
+
+        .c12 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .c13 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .proyectos-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            position: relative;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            width: 230px;
+            padding-bottom: 50px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .card-desc {
+            font-size: 11px;
+            color: #777;
+            line-height: 1.4;
+        }
+
+        .btn-proyecto {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            padding: 6px 14px;
+            border-radius: 3px;
+            font-size: 11px;
+            white-space: nowrap;
+        }
+
+        .btn-proyecto:hover {
+            background-color: #c0392b;
+        }
+
+        /* --- QUINTA SECCIÓN --- */
+        #quintaseccion {
+            position: relative;
+            background-color: #2b2b2b;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+
+        /* Tablets y Pantallas Medianas (<= 900px) */
+        @media screen and (max-width: 900px) {
+            #primeraseccion {
+                padding: 15px 30px;
+            }
+
+            .proyectos-grid {
+                gap: 15px;
+            }
+
+            .card {
+                width: 45%; /* Pasa a 2 columnas */
+            }
+        }
+
+        /* Pantallas Móviles (<= 600px) */
+        @media screen and (max-width: 600px) {
+            #primeraseccion {
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+                text-align: center;
+            }
+
+            .nav-links {
+                gap: 15px;
+            }
+
+            #segundaseccion {
+                flex-direction: column;
+                padding: 40px 20px;
+                text-align: center;
+            }
+
+            .texto {
+                align-items: center;
+            }
+
+            .card {
+                width: 100%; /* Pasa a 1 columna ocupando todo el ancho */
+                max-width: 320px;
+            }
+        }
+    </style>
+
+</body>
+</html>
